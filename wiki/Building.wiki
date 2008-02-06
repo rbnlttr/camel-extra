@@ -1,0 +1,38 @@
+#labels Featured
+The Camel Extra project uses [http://maven.apache.org/ Maven] as its build tool. If you don't fancy using Maven you can use your IDE directly or [http://code.google.com/p/camel-extra/downloads/list Download] a distribution.
+
+== Prequisites ==
+
+ * Download and [http://maven.apache.org/start/install.htm install Mavenl]. 
+ * Get the latest [http://code.google.com/p/camel-extra/source/checkout Source] 
+
+=== A normal build ===
+
+{{{
+mvn install
+}}}
+
+=== Doing a Quick Build ===
+
+The following avoids running all the unit test cases
+
+{{{
+mvn -Dtest=false install
+}}}
+
+===  Using an IDE ==
+
+If you prefer to use an IDE then you can auto-generate the IDE's project files using maven plugins. e.g.
+
+{{{
+mvn eclipse:eclipse
+}}}
+
+or
+
+{{{
+mvn idea:idea
+}}}
+
+
+If you have not already done so, you will need to make Eclipse aware of the Maven repository so that it can build everything. In the preferences, go to Java->Build Path->Classpath and define a new Classpath Variable named *M2_REPO* that points to your local Maven repository (i.e., _~/.m2/repository_ on Unix and _c:\Documents and Settings\<user>\.m2\repository_ on Windows). 

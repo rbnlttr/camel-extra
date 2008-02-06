@@ -1,12 +1,13 @@
+#labels Featured
 This a simple demo showing how to integrate the Camel Esper component with ActiveMQ
 
 == How to run ==
 
 1) in one shell just type: 
 
-{code}
+{{{
 mvn camel:run
-{code}
+}}}
 
 This starts a java process with an embedded ActiveMQ message broker and a Camel route.
 This Camel route receives a flow of events coming from a JMS queue injecting them into a complex event processing flow  based on a couple of Camel Esper components.

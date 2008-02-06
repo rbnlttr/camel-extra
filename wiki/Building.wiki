@@ -35,4 +35,7 @@ mvn idea:idea
 }}}
 
 
-If you have not already done so, you will need to make Eclipse aware of the Maven repository so that it can build everything. In the preferences, go to Java->Build Path->Classpath and define a new Classpath Variable named *M2_REPO* that points to your local Maven repository (i.e., _~/.m2/repository_ on Unix and _c:\Documents and Settings\<user>\.m2\repository_ on Windows). 
+If you have not already done so, you will need to make Eclipse aware of the Maven repository so that it can build everything. In the preferences, go to Java->Build Path->Classpath and define a new Classpath Variable named *M2_REPO* that points to your local Maven repository 
+
+* on unix its  _~/.m2/repository_ 
+* on windows its  _c:\Documents and Settings\<user>\.m2\repository_ 

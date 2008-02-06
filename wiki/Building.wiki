@@ -28,7 +28,7 @@ If you prefer to use an IDE then you can auto-generate the IDE's project files u
 mvn eclipse:eclipse
 }}}
 
-or
+or if you have an older version of IDEA then try this (IDEA 7.0 can open pom.xml files directly)
 
 {{{
 mvn idea:idea

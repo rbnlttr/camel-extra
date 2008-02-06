@@ -3,7 +3,7 @@ The Camel Extra project uses [http://maven.apache.org/ Maven] as its build tool.
 
 == Prequisites ==
 
- * Download and [http://maven.apache.org/start/install.htm install Mavenl]. 
+ * Download and [http://maven.apache.org/start/install.htm install Maven]
  * Get the latest [http://code.google.com/p/camel-extra/source/checkout Source] 
 
 === A normal build ===

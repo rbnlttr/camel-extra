@@ -3,6 +3,14 @@ This a simple demo showing how to integrate the Camel Esper component with Activ
 
 == How to run ==
 
+Grab the [http://code.google.com/p/camel-extra/source/checkout source code] and [Building build it].
+
+Then change directory into the Esper demo
+
+{{{
+cd examples/camel-esper-demo
+}}}
+
 1) in one shell just type: 
 
 {{{

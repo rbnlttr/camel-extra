@@ -31,7 +31,6 @@ mvn deploy
 Try use the normal maven release plugin...
 
 {{{
-mvn release:prepare
-mvn release:perform
+mvn -Dusername=MY_GOOGLE_ACCOUNT_NAME release:prepare
+mvn -Dusername=MY_GOOGLE_ACCOUNT_NAMErelease:perform
 }}}
-

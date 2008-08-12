@@ -39,3 +39,7 @@ If you have not already done so, you will need to make Eclipse aware of the Mave
 
  * on unix its  _~/.m2/repository_ 
  * on windows its  _c:\Documents and Settings\<user>\.m2\repository_ 
+
+=== Releasing ===
+
+See the ReleaseGuide for more details

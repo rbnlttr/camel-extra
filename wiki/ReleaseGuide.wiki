@@ -32,5 +32,5 @@ Try use the normal maven release plugin...
 
 {{{
 mvn -Dusername=MY_GOOGLE_ACCOUNT_NAME release:prepare
-mvn -Dusername=MY_GOOGLE_ACCOUNT_NAMErelease:perform
+mvn -Dusername=MY_GOOGLE_ACCOUNT_NAME release:perform
 }}}

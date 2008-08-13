@@ -1,0 +1,6 @@
+= Maven Repo =
+
+CamelExtra has a maven repository where distributions are placed
+
+ * [http://code.google.com/p/camel-extra/source/browse/#svn/maven2/releases release repository] 
+ * [http://code.google.com/p/camel-extra/source/browse/#svn/maven2/snapshots snapshot repository]

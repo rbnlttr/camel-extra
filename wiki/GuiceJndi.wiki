@@ -27,10 +27,10 @@ You must specify the following properties as a bare minimum
 java.naming.factory.initial = com.google.inject.jndi.GuiceInitialContextFactory
 
 # list of guice modules to boot up (space separated)
-guice.modules = com.acme.MyModule
+com.google.inject.modules = com.acme.MyModule
 }}}
 
-The *guice.modules* defines a space separated list of Guice modules to add to the Guice Injector.
+The *com.google.inject.modules* defines a space separated list of Guice modules to add to the Guice Injector.
 
 == Binding to @Named injection points ==
 
@@ -42,8 +42,8 @@ For example if you used this properties file
 # Guice JNDI provider
 java.naming.factory.initial = com.google.inject.jndi.GuiceInitialContextFactory
 
-# default modules to boot up
-guice.modules = com.acme.MyModule
+# list of guice modules to boot up (space separated)
+com.google.inject.modules = com.acme.MyModule
 
 # guice injection properties
 cheese.type = Edam

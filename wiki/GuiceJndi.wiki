@@ -61,7 +61,7 @@ public class Cheese {
 
 == Exposing instances from the Injector into JNDI ==
 
-Any binding in Guice which has no other annotations attached is visible using its bound type name. For example to lookup the Guice Injector in JNDI you can use
+Any binding in Guice which has no other binding annotations attached is visible using its bound type name. For example to lookup the Guice Injector in JNDI you can use
 
 {{{
   Injector injector = (Injector) context.lookup("com.google.inject.Injector");

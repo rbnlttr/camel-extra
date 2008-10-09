@@ -18,6 +18,14 @@ Hashtable properties = new Hashtable();
 InitialContext context = new InitialContext(properties);
 }}}
 
+You can then look up objects in JNDI; which under the covers will cause Guice to inject objects.
+
+For example
+
+{{{
+  Injector injector = (Injector) context.lookup("com.google.inject.Injector");
+}}}
+
 === Specifiying the properties ===
 
 You must specify the following properties as a bare minimum

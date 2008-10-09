@@ -7,15 +7,15 @@ The Guice JNDI provider makes it easy to create a JNDI context using Guice as th
 To create a Guice JNDI provider you need to create a *jndi.properties* file on the classpath. Then you can use JNDI as follows
 
 {{{
-    InitialContext context = new InitialContext();
+InitialContext context = new InitialContext();
 }}}
 
 Or if you prefer you can configure a Hashtable with the entries inside (which we'll discuss shortly)...
 
 {{{
-    Hashtable properties = new Hashtable();
-    // setup the properties...
-    InitialContext context = new InitialContext(properties);
+Hashtable properties = new Hashtable();
+// setup the properties...
+InitialContext context = new InitialContext(properties);
 }}}
 
 === Specifiying the properties ===

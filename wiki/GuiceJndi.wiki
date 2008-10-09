@@ -59,7 +59,7 @@ public class Cheese {
 }
 }}}
 
-== Exposing instances from the Injector into JNDI ==
+== Exposing Injector bindings in JNDI ==
 
 Any binding in Guice which has no other binding annotations attached is visible using its bound type name. For example to lookup the Guice Injector in JNDI you can use
 
@@ -104,3 +104,26 @@ public class ExampleModule extends AbstractModule {
 }}}
 
 Which will bind the result of makeBlah() to the JNDI name  "blah" 
+
+=== Custom bindings using the properties file ===
+
+You can also map Guice bindings to custom JNDI names using the properties file. 
+
+For example this jndi.properties file would expose the Guice injector as a JNDI name *myInjector*
+
+{{{
+# Guice JNDI provider
+java.naming.factory.initial = com.google.inject.jndi.GuiceInitialContextFactory
+
+# list of guice modules to boot up (space separated)
+com.google.inject.modules = com.google.inject.jndi.ExampleModule
+
+# JNDI entries to create from bindings in the Guice Injector
+com.google.inject.jndi/myInjector = com.google.inject.Injector
+}}}
+
+Basically you use the format 
+
+{{{
+com.google.inject.jndi/jndiName = bindingClassName
+}}}

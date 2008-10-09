@@ -89,7 +89,7 @@ public class Cheese {
 
 The Cheese object will be bound to the JNDI name "cheese" and be injected with the "cheese.type" entry in the jndi.properties file.
 
-Another option is to use the annotation in a module
+Another option is to use the annotation in a module's provider method
 
 {{{
 public class ExampleModule extends AbstractModule {

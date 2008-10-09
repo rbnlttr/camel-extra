@@ -1,6 +1,6 @@
 = Guice JNDI =
 
-The Guice JNDI provider makes it easy to create a JNDI context using Guice as the dependency injection mechanism letting you use the power of Guice Dependency Injection while still supporting JNDI which allows clients to look up objects in JNDI while using Guice to create them.
+The Guice JNDI provider makes it easy to create a JNDI context using Guice as the dependency injection mechanism which lets you look objects up in JNDI and then delegate to Guice to dependency inject them.
 
 == Creating the Guice JNDI provider ==
 

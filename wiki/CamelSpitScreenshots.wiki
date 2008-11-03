@@ -2,25 +2,25 @@
 
 Easy piece of configuration, pull from the endpoint URL and deliver to a recipient list where each recipient is a pipeline.
 
-http://www.fooment.org/camelspit/recip-pipeline.png
+http://www.foomnet.org/camelspit/recip-pipeline.png
 
 = Choice =
 
 This is a choice element, or content-based router, it should be clear what is going on.
 
-http://www.fooment.org/camelspit/choice.png
+http://www.foomnet.org/camelspit/choice.png
 
 = Choice with a Fault =
 
 Sometimes you don't need no steenkin' otherwise.
 
-http://www.fooment.org/camelspit/choiceandfault.png
+http://www.foomnet.org/camelspit/choiceandfault.png
 
 = What can I put in a route? =
 
 Completion options once you have the initial route started, but empty.
 
-http://www.fooment.org/camelspit/route.png
+http://www.foomnet.org/camelspit/route.png
 
 = What can I put in a when? =
 

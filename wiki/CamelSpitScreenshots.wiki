@@ -24,6 +24,6 @@ http://www.foomnet.org/camelspit/route.png
 
 = What can I put in a when? =
 
-Here's the completion options visible when attempting to put content into a *when* clause for a choice.
+Here's the completion options visible when attempting to put content into a *when* clause for a choice. Note funcky obsckure error messages. Yes, there is a way to override them, I think.
 
 http://www.foomnet.org/camelspit/when.png

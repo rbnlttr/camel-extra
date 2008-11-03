@@ -1,4 +1,5 @@
 #summary Text-based DSL Editor for Camel and Eclipse
+#labels Featured
 
 = Introduction =
 

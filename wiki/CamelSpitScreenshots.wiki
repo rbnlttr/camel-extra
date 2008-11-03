@@ -4,7 +4,7 @@ Easy piece of configuration, pull from the endpoint URL and deliver to a recipie
 
 http://www.foomnet.org/camelspit/recip-pipeline.png
 
-= Choice =
+= What can I put in a Choice? =
 
 This is a choice element, or content-based router, it should be clear what is going on.
 

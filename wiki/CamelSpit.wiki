@@ -5,6 +5,8 @@
 
 *Spit* is a really, really early stage piece of research into generating a syntax-completion editor for a text-based (i.e. not XML, not programming language) DSL for Camel. It's called *Spit* because camels do that a lot, and it will probably be your first reaction when you try it out :)
 
+[CamelSpitScreenshots Screenshots live here!]
+
 I started this mainly as a way to learn how [http://wiki.eclipse.org/Xtext Xtext] works, basing the initial grammar on a [http://issues.apache.org/activemq/browse/CAMEL-1046 contribution by Vadim Chekan]. I ended up departing from that grammar a bit, mainly driven by some limitations in the way I currently know how to drive Xtext. 
 
 = Dependencies =

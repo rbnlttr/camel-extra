@@ -1,6 +1,6 @@
 = Outline view gets a bit better  07nov08 =
 
-Look at the little camels! Still some vagaries going on in this picture - for example the <unnamed> nodes in the picture, caused by the presence of the {{{SimplePattern}}} rule in the grammar that is re-used by a number of patterns. The ordering of the endpoint after the block contents doesn't seem right either - it would be better to see that first (maybe).
+Look at the little camels! Still some vagaries going on in this picture - for example the {{{<unnamed>}}} nodes in the picture, caused by the presence of the {{{SimplePattern}}} rule in the grammar that is re-used by a number of patterns. The ordering of the endpoint after the block contents doesn't seem right either - it would be better to see that first (maybe). Also I just noticed I forgot to code in the {{{when}}} clauses! Grr! Don't have time for that now, will have to do it again sometime.
 
 http://www.foomnet.org/camelspit/outline-with-camels.png
 

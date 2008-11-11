@@ -1,3 +1,9 @@
+= Setting and Converting =
+
+Added the syntax for setting the header and body of the message, and for converting to a specific type, or using a bean to do conversion. Uh-oh, that outline isn't quite right. 
+
+http://www.foomnet.org/camelspit/setandconvert.png
+
 = Block Folding =
 
 One neat little freebie from the editor is the folding - check out the picture below, where I've hidden the route definitions and you just see the start of the definition and an ellipsis. Outline view still shows everything.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.db4o</groupId>
+  <artifactId>db4o-core-java5</artifactId>
+  <version>7.12</version>
+  <versioning>
+    <versions>
+      <version>7.12</version>
+    </versions>
+    <lastUpdated>20101011095242</lastUpdated>
+  </versioning>
+</metadata>

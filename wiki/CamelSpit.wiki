@@ -3,6 +3,8 @@
 
 = Introduction =
 
+|| *06jan11* I just noticed Claus clearing out all the old bug reports as wontfix - I don't think I'll be getting back to this project at any point in the future. For interested parties, the Xtext DSL kit has really advanced, so you would be well recommended to rewrite from scratch, rather than re-using any of this stale code.  --oh ||
+
 || *29jul09* I haven't done anything with this project for a long  while, but hopefully at some point I'll get back to and port all the Xtext goodness to Eclipse Galileo and Camel 2.0. But I would advise non-holding of breath! --oh ||
 
 *Spit* is a really, really early stage piece of research into generating a syntax-completion editor for a text-based (i.e. not XML, not programming language) DSL for Camel. It's called *Spit* because camels do that a lot, and it will probably be your first reaction when you try it out :)

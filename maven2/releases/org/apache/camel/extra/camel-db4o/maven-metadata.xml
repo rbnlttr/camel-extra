@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.camel.extra</groupId>
+  <artifactId>camel-db4o</artifactId>
+  <versioning>
+    <release>2.5.0</release>
+    <versions>
+      <version>2.5.0</version>
+    </versions>
+    <lastUpdated>20110109205037</lastUpdated>
+  </versioning>
+</metadata>
